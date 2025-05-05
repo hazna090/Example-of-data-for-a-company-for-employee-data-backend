@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "brand": "apple",
+    "tahun": 1976,
+    "pendiri": " Steve Jobs, Steve Wozniak, Ronald Wayne",
+    "negara": "california",
+    "link": "https://www.apple.com/",
+    "picture": "images/Apple_logo_black.jpg"
+  }
+]

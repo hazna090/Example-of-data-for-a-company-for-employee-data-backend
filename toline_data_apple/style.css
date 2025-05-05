@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 98%);
+  color: #333;
+  font: 100% / normal sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+label {
+  font: 0.8em "typewriter", sans-serif;
+}
+
+input,
+textarea {
+  font: 1.4em/1.5em "handwriting", cursive, sans-serif;
+  border: none;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  background: none;
+  border-bottom: 2px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #f0f0f0;
+  border-bottom-color: #333;
+}
+
+.button {
+  grid-column: span 2;
+}
+
+button {
+  padding: 10px 20px;
+  font: bold 0.6em sans-serif;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Style for required fields */
+.required-field {
+  border-bottom-color: #ff0000;
+}
